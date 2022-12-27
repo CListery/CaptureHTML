@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name         网页截全屏
 // @namespace    https://github.com/CListery
-// @version      0.1
+// @version      0.3
 // @description  将整个网页截屏
 // @license      MIT
 // @author       CListery
 // @require      https://cdn.jsdelivr.net/npm/html2canvas@1/dist/html2canvas.min.js
-// @match        https://*/*
+// @require      https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
 // @match        http://*/*
+// @match        https://*/*
 // @icon         data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmZmZmIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjMuMiIvPgogICAgPHBhdGggZD0iTTkgMkw3LjE3IDRINGMtMS4xIDAtMiAuOS0yIDJ2MTJjMCAxLjEuOSAyIDIgMmgxNmMxLjEgMCAyLS45IDItMlY2YzAtMS4xLS45LTItMi0yaC0zLjE3TDE1IDJIOXptMyAxNWMtMi43NiAwLTUtMi4yNC01LTVzMi4yNC01IDUtNSA1IDIuMjQgNSA1LTIuMjQgNS01IDV6Ii8+CiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=
 // @grant        none
 // ==/UserScript==
